@@ -145,6 +145,10 @@ nav{
     display: grid;
     place-items: center;
 }
+#img-fluid{
+    max-width: 100%;
+    height: auto;
+}
 
 
 
@@ -173,41 +177,38 @@ nav{
     }
     
 .header-container{
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
     margin-top: 69px;
     display: block;
 }
 .header-text h1{
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 500;
     max-width: 555px;
     font-family: "Josefin Sans", sans-serif;
+    display: flex;
+    text-align: center;
 }
 .header-text h2{
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 400;
     color: #565656;
     max-width: 455px;
     font-family: "DM Sans", sans-serif;
+    display: flex;
+    text-align: center;
 }
 .explore-btn{
     margin-top: 40px;
     margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
 }
-.explore-btn button{
-    background-color: #3D00B7;
-    color: white;
-    padding: 10px 27px;
-    border-radius: 32px;
-    border: none;
-    font-family: "Josefin Sans", sans-serif;
-    font-size: 20px;
 
-}
 .number{
     display: flex;
-    gap: 23px;
+    gap: 10px;
 }
 .number h5{
     margin-top: -19px;
@@ -235,7 +236,7 @@ nav{
 }
 .img-group-83{
     position: absolute;
-   bottom: 7rem;
+    bottom: 7rem;
     left: -4rem;
     display: grid;
     place-items: center;
@@ -243,20 +244,21 @@ nav{
 .header-h3{
     position: absolute;
     left: 1rem;
-    top: 1.5rem;
+    top: 0.5rem;
     display: grid;
     place-items: center;
     color: white;
-    font-size: 28px;
+    font-size: 18px;
     font-weight: bold;
 }
 .img-group-76{
     position: absolute;
     left: 1rem;
-    top: 6rem;
+    top: 3rem;
     display: grid;
     place-items: center;
 }
+
 
 
 }
@@ -383,10 +385,6 @@ nav{
         color: #565656;
         font-weight: 400;
     }
-    .background-image{
-        max-width: 100%;
-        margin: 0 auto;
-    }
     .header-images{
         position: relative;
         display: flex;
@@ -400,7 +398,10 @@ nav{
        bottom: 1.5rem;
        display: grid;
        place-items: center;
+       max-width: 100%;
+        height: auto;
     }
+
     .img-group-83{
         position: absolute;
        bottom: 7rem;
