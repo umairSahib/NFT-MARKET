@@ -151,9 +151,10 @@ nav{
 }
 
 .menu-cards{
-    display: flex;
-    gap: 56px;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+    gap: 50px;
     margin-left: 0px;
     margin-right: 60px;
     margin-top: 122px;
@@ -171,7 +172,6 @@ nav{
     font-family: "Josefin Sans", sans-serif;
     font-size: 28px;
     font-weight: bold;
-    max-width: 450px;
 }
 .menu-cards h2{
     font-family: "DM Sans", sans-serif;
@@ -182,8 +182,6 @@ nav{
     font-family: "DM Sans", sans-serif;
     font-size: 14px;
     font-weight: 400;
-    
-
 }
 .card-1{
     margin-top: 10px;
@@ -303,6 +301,58 @@ nav{
     display: grid;
     place-items: center;
 }
+.menu-cards{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: auto;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 122px;
+}
+.card-1-container{
+    display: flex;
+    margin-left: -67px;
+    margin-top: -30px;
+}
+.card-2-container{
+    display: flex;
+    margin-left: -67px;
+    margin-top: -30px;
+}
+.cards-text h1{
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    max-width: none;
+    margin-left: -67px;
+    margin-right: -47px;
+}
+.menu-cards h2{
+    font-family: "DM Sans", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+.menu-cards h3{
+    font-family: "DM Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+.card-1{
+    margin-top: 10px;
+}
+.card-2{
+    margin-top: 10px;
+}
+
+.card-1-text h3{
+    max-width: 355px;
+    color: #696969;
+}
+.card-2-text h3{
+    max-width: 355px;
+    color: #696969;
+}
+
 
 
 
@@ -408,6 +458,58 @@ nav{
         display: grid;
         place-items: center;
     }
+    .menu-cards{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: auto;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 122px;
+    }
+    .card-1-container{
+        display: flex;
+        margin-left: -67px;
+        margin-top: -30px;
+    }
+    .card-2-container{
+        display: flex;
+        margin-left: -67px;
+        margin-top: -30px;
+    }
+    .cards-text h1{
+        font-family: "Josefin Sans", sans-serif;
+        font-size: 28px;
+        font-weight: bold;
+        max-width: none;
+        margin-left: -67px;
+        margin-right: -47px;
+    }
+    .menu-cards h2{
+        font-family: "DM Sans", sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .menu-cards h3{
+        font-family: "DM Sans", sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .card-1{
+        margin-top: 10px;
+    }
+    .card-2{
+        margin-top: 10px;
+    }
+    
+    .card-1-text h3{
+        max-width: none;
+        color: #696969;
+    }
+    .card-2-text h3{
+        max-width: none;
+        color: #696969;
+    }
+    
     
     
 
@@ -487,6 +589,57 @@ nav{
         display: block;
         left: 10rem;
     }
+  .card-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-row: auto;
+    gap: 20px;
+  }
+.cards-text{
+    display: block;
+    width: 100%;
+}
+.card-1-container{
+    display: flex;
+    
+}
+.card-2-container{
+    display: flex;
+    
+}
+.cards-text h1{
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+.menu-cards h2{
+    font-family: "DM Sans", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+.menu-cards h3{
+    font-family: "DM Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+.card-1{
+    margin-top: 10px;
+}
+.card-2{
+    margin-top: 10px;
+}
+
+.card-1-text h3{
+    max-width: 320px;
+    color: #696969;
+}
+.card-2-text h3{
+    max-width: 320px;
+    color: #696969;
+}
+
     
 
     
@@ -590,7 +743,55 @@ nav{
         display: block;
         left: -4rem;
     }
-   
+    .menu-cards{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: auto;
+        gap: 40px;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 122px;
+        padding: 60px;
+    }
+    .card-1-container{
+        display: flex;
+        gap: 10px;
+    }
+    .card-2-container{
+        display: flex;
+        gap: 10px;
+    }
+    .cards-text h1{
+        font-family: "Josefin Sans", sans-serif;
+        font-size: 28px;
+        font-weight: bold;
+    }
+    .menu-cards h2{
+        font-family: "DM Sans", sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .menu-cards h3{
+        font-family: "DM Sans", sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .card-1{
+        margin-top: 10px;
+    }
+    .card-2{
+        margin-top: 10px;
+    }
+    
+    .card-1-text h3{
+        max-width: 355px;
+        color: #696969;
+    }
+    .card-2-text h3{
+        max-width: 355px;
+        color: #696969;
+    }
+    
 
 
 }
@@ -700,6 +901,55 @@ nav{
         display: grid;
         place-items: center;
     }
+    .menu-cards{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: auto;
+        gap: 50px;
+        margin-left: 0px;
+        margin-right: 60px;
+        margin-top: 122px;
+        padding: 60px;
+    }
+    .card-1-container{
+        display: flex;
+        gap: 10px;
+    }
+    .card-2-container{
+        display: flex;
+        gap: 10px;
+    }
+    .cards-text h1{
+        font-family: "Josefin Sans", sans-serif;
+        font-size: 28px;
+        font-weight: bold;
+    }
+    .menu-cards h2{
+        font-family: "DM Sans", sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .menu-cards h3{
+        font-family: "DM Sans", sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .card-1{
+        margin-top: 10px;
+    }
+    .card-2{
+        margin-top: 10px;
+    }
+    
+    .card-1-text h3{
+        max-width: 355px;
+        color: #696969;
+    }
+    .card-2-text h3{
+        max-width: 355px;
+        color: #696969;
+    }
+    
     
 
 }
