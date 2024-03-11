@@ -1,0 +1,164 @@
+@media (min-width: 1200px){
+    nav{
+        max-width: 1400px;
+        margin: 0 auto;
+    }
+    .navbar{
+        margin-left: 40px;
+        margin-right: 40px;
+        display: flex;
+        align-items: center;
+    }
+    .nav-ul{
+        display: flex;
+        
+    }
+    .nav-btn{
+        display: flex;
+    }
+    .search-bar{
+        display: flex;
+    }
+    .header-container{
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    .explore-btn{
+        margin-top: 40px;
+        margin-bottom: 30px;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .explore-btn button{
+        background-color: #3D00B7;
+        color: white;
+        padding: 10px 27px;
+        border-radius: 32px;
+        border: none;
+        font-family: "Josefin Sans", sans-serif;
+        font-size: 20px;
+    
+    }
+    .number{
+        display: flex;
+        gap: 10px;
+        justify-content: flex-start;
+    }
+    .number h5{
+        margin-top: -19px;
+        font-size: 15px;
+        color: #565656;
+        font-weight: 400;
+    }
+    .header-images{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .img-group{
+       position: absolute;
+       left: 2rem;
+       bottom: 1.5rem;
+       display: grid;
+       place-items: center;
+    }
+   .hidden-button{
+    display: none;
+   }
+    .header-h3{
+        position: absolute;
+        left: 2rem;
+        top: 0.5rem;
+        display: grid;
+        place-items: center;
+        color: white;
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .img-group-76{
+        position: absolute;
+        left: 2rem;
+        top: 4rem;
+        display: grid;
+        place-items: center;
+    }
+    .img-group-83{
+        display: block;
+        left: -4rem;
+    }
+    .menu-cards{
+        display: flex;
+        margin-left: 40px;
+    }
+    .card-1-container{
+        display: flex;
+        gap: 10px;
+    }
+    .card-2-container{
+        display: flex;
+        gap: 10px;
+    }
+    .cards-text h1{
+        font-family: "Josefin Sans", sans-serif;
+        font-size: 28px;
+        font-weight: bold;
+        max-width: 370px;
+    }
+    .menu-cards h2{
+        font-family: "DM Sans", sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .menu-cards h3{
+        font-family: "DM Sans", sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .card-1{
+        margin-top: 10px;
+    }
+    .card-2{
+        margin-top: 10px;
+    }
+    
+    .card-1-text h3{
+        max-width: 223px;
+        color: #696969;
+    }
+    .card-2-text h3{
+        max-width: 285px;
+        color: #696969;
+    }
+    .pics-group{
+        max-width: 1400px;
+        margin-left: 120px;
+        margin-right: 120px;
+        margin-top: 134px;
+        display: flex;
+        gap: 67px;
+    }
+    .group-container-3-text h2{
+        font-size: 20px;
+        font-weight: bold;
+        font-family: "DM Sans", sans-serif;
+        margin-top: 0px;
+    }
+    .group-container-3-text h3{
+        font-size: 18px;
+        font-weight: bold;
+        font-family: "DM Sans", sans-serif;
+        margin-top: -15px;
+        color: #3D00B7;
+    }
+    .group-container-1 img{
+       margin-bottom: 15px;
+    }
+    .group-container-2 img{
+        margin-bottom: 15px;
+    }
+    .group-container-3 img{
+        margin-top: 15px;
+        margin-bottom: 0px;
+    }
+}
