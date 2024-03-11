@@ -199,6 +199,7 @@ nav{
     color: #696969;
 }
 
+
 @media (min-width: 320px){
     nav{
         max-width: 576px;
@@ -821,6 +822,7 @@ nav{
     }
     .menu-cards{
         display: flex;
+        margin-left: 40px;
     }
     .card-1-container{
         display: flex;
@@ -834,7 +836,7 @@ nav{
         font-family: "Josefin Sans", sans-serif;
         font-size: 28px;
         font-weight: bold;
-        max-width: 455px;
+        max-width: 370px;
     }
     .menu-cards h2{
         font-family: "DM Sans", sans-serif;
@@ -860,5 +862,36 @@ nav{
     .card-2-text h3{
         max-width: 285px;
         color: #696969;
+    }
+    .pics-group{
+        max-width: 1400px;
+        margin-left: 120px;
+        margin-right: 120px;
+        margin-top: 134px;
+        display: flex;
+        gap: 67px;
+    }
+    .group-container-3-text h2{
+        font-size: 20px;
+        font-weight: bold;
+        font-family: "DM Sans", sans-serif;
+        margin-top: 0px;
+    }
+    .group-container-3-text h3{
+        font-size: 18px;
+        font-weight: bold;
+        font-family: "DM Sans", sans-serif;
+        margin-top: -15px;
+        color: #3D00B7;
+    }
+    .group-container-1 img{
+       margin-bottom: 15px;
+    }
+    .group-container-2 img{
+        margin-bottom: 15px;
+    }
+    .group-container-3 img{
+        margin-top: 15px;
+        margin-bottom: 0px;
     }
 }
