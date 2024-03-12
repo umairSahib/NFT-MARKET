@@ -202,9 +202,14 @@ nav{
     max-width: 355px;
     color: #696969;
 }
+
+
+
+
+
+
 .pics-group{
-    margin-left: 120px;
-    margin-right: 120px;
+    margin-left: 70px;
     margin-top: 134px;
     display: flex;
     gap: 67px;
@@ -229,13 +234,113 @@ nav{
     margin-bottom: 15px;
 }
 .group-container-3 img{
-    margin-top: 15px;
+    margin-top: 19px;
     margin-bottom: 0px;
 }
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+@media (min-width: 320px){
+    .pics-group{
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-top: 134px;
+        display: flex;
+        flex-direction: column;
 
+    }
 
+}
+@media (min-width: 576px){
+    .pics-group{
+        margin-left: 80px;
+        margin-top: 134px;
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media (min-width: 768px){
+    .pics-group{
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 134px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+    }
+    .group-container-1 img{
+         margin-bottom: 20px;
+    }
+    .group-container-2 img{
+        margin-bottom: 1px;
+    }
+    .group-container-3{
+       width: 100%;
+       margin-left: 230px;
+    }
+}
+@media (min-width: 992px){
+    .pics-group{
+        margin-left: 25px;
+        margin-right: 25px;
+        margin-top: 134px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
 
+    }
+    .group-container-1 img{
+        display: block;
+        margin-bottom: 70px;
+    }
+    .group-container-2 img{
+        display: block;
+        margin-bottom: 20px;
+    }
+    .group-container-3 img{
+        display: block;
+        margin-bottom: 25px;
+    }
+    .group-container-3{
+        margin-left: 0px;
+    }
 
-
-
+}
+@media (min-width: 1200px){
+    .pics-group{
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-top: 134px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: auto;
+        gap: 67px;
+    }
+    .group-container-3-text h2{
+        font-size: 20px;
+        font-weight: bold;
+        font-family: "DM Sans", sans-serif;
+        margin-top: 0px;
+    }
+    .group-container-3-text h3{
+        font-size: 18px;
+        font-weight: bold;
+        font-family: "DM Sans", sans-serif;
+        margin-top: -15px;
+        color: #3D00B7;
+    }
+    .group-container-1 img{
+       margin-bottom: 75px;
+    }
+    .group-container-2 img{
+        margin-bottom: 15px;
+    }
+    .group-container-3 img{
+        margin-top: 23px;
+        margin-bottom: 0px;
+    }
+    
+    
+}
 

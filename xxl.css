@@ -130,35 +130,6 @@
         max-width: 285px;
         color: #696969;
     }
-    .pics-group{
-        max-width: 1400px;
-        margin-left: 120px;
-        margin-right: 120px;
-        margin-top: 134px;
-        display: flex;
-        gap: 67px;
-    }
-    .group-container-3-text h2{
-        font-size: 20px;
-        font-weight: bold;
-        font-family: "DM Sans", sans-serif;
-        margin-top: 0px;
-    }
-    .group-container-3-text h3{
-        font-size: 18px;
-        font-weight: bold;
-        font-family: "DM Sans", sans-serif;
-        margin-top: -15px;
-        color: #3D00B7;
-    }
-    .group-container-1 img{
-       margin-bottom: 15px;
-    }
-    .group-container-2 img{
-        margin-bottom: 15px;
-    }
-    .group-container-3 img{
-        margin-top: 15px;
-        margin-bottom: 0px;
-    }
+      
+    
 }
