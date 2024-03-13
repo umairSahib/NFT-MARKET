@@ -205,9 +205,6 @@ nav{
 
 
 
-
-
-
 .pics-group{
     margin-left: 70px;
     margin-top: 134px;
@@ -723,7 +720,7 @@ nav{
     #group-107{
         position: absolute;
         left: 39rem;
-        top: 152rem;
+        top: 169rem;
         display: grid;
         place-items: center;
         border-radius: 50%;
