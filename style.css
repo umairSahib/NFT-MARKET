@@ -374,7 +374,23 @@ nav{
     margin-left: 121px;
     margin-right: 126px;
   }
-  
+  .info{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  .info button{
+    padding: 10px 30px;
+    color: #4F33A3;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "DM Sans", sans-serif ;
+    border: 1px solid #3d00b7;
+    border-radius: 32px;
+  }
+  .section-103-container{
+    padding-bottom: 100px;
+  }
 
 @media (min-width: 320px){
     .pics-group{
