@@ -141,5 +141,36 @@
     .nft-container-1{
         row-gap: 20px;
     }
+    .footer-container{
+        margin-left: 120px;
+        margin-right: 120px;
+        display: grid;
+        gap: 0px;
+       
+    }
+    .logo-section h3{
+        margin-top: 20px;
+        font-size: 14px;
+        font-weight: 400;
+        font-family: "DM Sans", sans-serif;
+        max-width: 250px;
+     }
+     .loop-section h3{
+        font-size: 14px;
+        font-weight: 500;
+        font-family:"DM Sans", sans-serif;
+        margin-top: 20px;
+        max-width: 250px;
+     }
+
+     .footer-end{
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+    }
+    .email button{
+        padding: 10px 10px;
+    }
+
     
 }

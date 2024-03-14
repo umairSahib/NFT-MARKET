@@ -122,6 +122,39 @@
 }
 
 
+.footer-container{
+    margin-left: 80px;
+    margin-right: 80px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.logo-section h3{
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "DM Sans", sans-serif;
+    max-width: 250px;
+ }
+ .loop-section h3{
+    font-size: 14px;
+    font-weight: 500;
+    font-family:"DM Sans", sans-serif;
+    margin-top: 20px;
+    max-width: 250px;
+ }
+ .market-section{
+    width: 100%;
+    display: none;
+}
+.account-section{
+    width: 100%;
+    display: block;
+}
+ .footer-end{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
 
     
 }
