@@ -4,8 +4,8 @@
         margin: 0 auto;
     }
     .navbar{
-        margin-left: 40px;
-        margin-right: 40px;
+        margin-left: 60px;
+        margin-right: 130px;
         display: flex;
         align-items: center;
     }
@@ -20,8 +20,15 @@
         display: flex;
     }
     .header-container{
-        margin-left: 40px;
-        margin-right: 40px;
+        margin-left: 60px;
+        margin-right: 130px;
+    }
+    .header-text h1{
+        margin-bottom: 21px;
+        max-width: 350px;
+    }
+    .header-text h2{
+        max-width: 350px;
     }
     .explore-btn{
         margin-top: 40px;
@@ -37,12 +44,13 @@
         border: none;
         font-family: "Josefin Sans", sans-serif;
         font-size: 20px;
-    
+        margin-top: 41px;
     }
     .number{
         display: flex;
         gap: 10px;
         justify-content: flex-start;
+        margin-top: 71px;
     }
     .number h5{
         margin-top: -19px;
@@ -130,6 +138,8 @@
         max-width: 285px;
         color: #696969;
     }
-      
+    .nft-container-1{
+        row-gap: 20px;
+    }
     
 }

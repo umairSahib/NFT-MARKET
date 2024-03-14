@@ -65,7 +65,7 @@ nav{
 }
 .header-container{
     margin-left: 60px;
-    margin-right: 60px;
+    margin-right: 130px;
     margin-top: 69px;
     display: flex;
     justify-content: space-between;
@@ -391,6 +391,104 @@ nav{
   .section-103-container{
     padding-bottom: 100px;
   }
+  .footer-container{
+    margin-left: 120px;
+    margin-right: 120px;
+    display: flex;
+    gap: 50px;
+    margin-top: 120px;
+   
+}
+.logo-section{
+   margin-top: 20px;
+}
+.logo-section h3{
+   margin-top: 27px;
+   font-size: 14px;
+   font-weight: 400;
+   font-family: "DM Sans", sans-serif;
+   max-width: 750px;
+}
+.logos{
+    display: flex;
+    gap: 16px;
+    margin-top: 32px;
+}
+.market-section{
+    width: 350px;
+}
+.account-section{
+    width: 350px;
+}
+
+.market-section h2{
+    font-size: 18px;
+    font-weight: bold;
+    font-family:"DM Sans", sans-serif;
+
+}
+.market-section h4{
+    font-size: 14px;
+    font-weight: 500;
+    font-family:"DM Sans", sans-serif;
+
+}
+.account-section h2{
+    font-size: 18px;
+    font-weight: bold;
+    font-family:"DM Sans", sans-serif;
+
+}
+.account-section h5{
+    font-size: 14px;
+    font-weight: 500;
+    font-family:"DM Sans", sans-serif;
+
+}
+.loop-section h2{
+    font-size: 18px;
+    font-weight: bold;
+    font-family:"DM Sans", sans-serif;
+
+}
+.loop-section h3{
+    font-size: 14px;
+    font-weight: 500;
+    font-family:"DM Sans", sans-serif;
+    margin-top: 27px;
+}
+.email{
+    margin-top: 30px;
+    gap: 16px;
+}
+  
+
+.email button{
+    background-color: #3d00b7;
+    color: white;
+    padding: 15px 17px;
+    border-radius: 32px;
+    border: none;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: "DM Sans", sans-serif;
+}
+.email input{
+    padding: 10px 13px;
+    border: none;
+    border-radius: 32px;
+}
+.footer-end{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.footer-end h3{
+    font-size: 14px;
+    font-weight: 500;
+    font-family: "DM Sans", sans-serif;
+}
+
 
 @media (min-width: 320px){
     .pics-group{
